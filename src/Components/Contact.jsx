@@ -4,7 +4,7 @@ import SingleContactCard from "./SingleContactCard";
 const Contact = () => {
   return (
     <>
-    <div className='flex flex-col relative z-10  w-screen   h-screen bg-gradient-to-tl from-black via-zinc-600/20 to-black'>
+    <div className='flex flex-col relative z-10  w-screen   h-screen '>
         <Header />
         <div className='mx-[70px] mt-20'>
           <h1 className='text-4xl text-white font-bold'>Contacts</h1>

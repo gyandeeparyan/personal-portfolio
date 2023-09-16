@@ -14,14 +14,14 @@ const SingleProjectCard = ({ title, git, live, desc }) => {
             <a href={live} rel="noreferrer" target='_blank'>
               <button
                 type='button'
-                className='mt-4  mr-[] rounded-full px-2.5 py-1 text-[15px]  text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 '>
+                className='mt-4  mr-[] rounded-full px-2.5 py-1 text-[15px] underline text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 '>
                 demo
               </button>
             </a>
             <a href={git} rel="noreferrer" target='_blank'>
               <button
                 type='button'
-                className='mt-4  mr-[] rounded-full px-2.5 py-1 text-[15px]  text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 '>
+                className='mt-4  mr-[] rounded-full px-2.5 py-1 text-[15px] underline text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 '>
                 github
               </button>
             </a>

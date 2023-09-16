@@ -3,7 +3,7 @@
 const SingleContactCard = ({title,desc,link,icon}) => {
   return (
     <>
-     <div className='w-[300px] rounded-xl border text-zinc-500 border-zinc-500'>
+     <div className='w-[300px] rounded-xl hover:text-zinc-400 border text-zinc-500 border-zinc-500'>
         <div className='p-4 flex '>
          <a href={link} rel="noreferrer" target='_blank'>
 

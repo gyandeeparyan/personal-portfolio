@@ -10,7 +10,8 @@ const Particle = () => {
   };
   return (
     <>
-      <div className="relative z-0">
+    <div className="bg-gradient-to-tl from-black via-zinc-600/20 to-black z-10">
+    <div className="relative   z-0">
       <Particles
         id="tsparticles"
         init={particlesInit}
@@ -25,7 +26,7 @@ const Particle = () => {
             },
             size: {
              
-              value: 0.5,
+              value: 1.2,
             },
             color: {
               value: "#f1f1f1",
@@ -74,6 +75,8 @@ const Particle = () => {
         }}
       />
       </div>
+    </div>
+     
     </>
   );
 };
