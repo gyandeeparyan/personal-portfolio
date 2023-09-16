@@ -32,7 +32,8 @@ const Home = () => {
           <h2 className='text-sm text-zinc-500 mx-5  '>
             Hi, my name is Gyandeep, I'm a frontend developer from Bharat .{" "} 
             <br className="hidden md:block" />
-            Crafting accessible & responsive web experiences one component at a time
+            Reading and learning from docs are my superpower
+           
           </h2>
         </div>
       </div>
