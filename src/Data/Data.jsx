@@ -11,8 +11,8 @@ export const projectData = [
     id: 21,
     title: "Calm",
     image: "https://i.ibb.co/x6G9LNR/eatsy.png",
-    git: "https://github.com/gyandeeparyan/eatsy-food",
-    live: "https://eatsy-food.netlify.app/",
+    git: "https://github.com/gyandeeparyan/youtube-academic-clone",
+    live: "https://youtube-academic.netlify.app/",
     desc: "Calm, your serene sanctuary. This YouTube-like app offers powerful search to help you find soothing content and inner peace."
   },
   {
