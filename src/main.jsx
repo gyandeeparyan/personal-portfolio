@@ -10,6 +10,7 @@ import "./index.css";
 import Layout from "./Components/Layout";
 import Projects from "./Components/Projects";
 import Contact from "./Components/Contact";
+import { lazy,Suspense } from "react";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
