@@ -30,7 +30,7 @@ const Home = () => {
         <div className='hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0'></div>
         <div className='my-16 text-center animate-fade-in'>
           <h2 className='text-sm text-zinc-500 mx-5  '>
-            Hi, my name is Gyandeep, I'm a frontend developer from Bharat .{" "} 
+            Hi, my name is &lt;Gyandeep &#47;&gt;, I'm a frontend developer from Bharat .{" "} 
             <br className="hidden md:block" />
             Reading and learning from docs are my superpower
            
