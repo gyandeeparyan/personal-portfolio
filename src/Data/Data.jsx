@@ -1,5 +1,14 @@
 export const projectData = [
   {
+    id: 66,
+    title: "SAMVAD-SETU 🎙️",
+    image: "https://i.ibb.co/QJrqWJD/netflix-gpt4.png",
+    git: "https://github.com/gyandeeparyan/samvad-setu",
+    live: "https://samvad-setu-gyandeeparyan.vercel.app/",
+    desc: "Samvada Setu is a revolutionary video meeting application that leverages the power of the next generation web technology, NextJS, and the efficiency of a mesh network topology. "
+,
+  },
+  {
     id: 7,
     title: "🎨 AAKRITI ✏️",
     image: "https://i.ibb.co/QJrqWJD/netflix-gpt4.png",
