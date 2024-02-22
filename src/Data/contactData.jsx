@@ -1,4 +1,4 @@
-import { AtSign, Github, Phone, Server, Twitter } from "lucide-react";
+import { AtSign, Github, Linkedin, Phone, Server, Twitter } from "lucide-react";
 
 export const contactData = [
     {
@@ -14,6 +14,13 @@ export const contactData = [
       title: "phone",
       link: "7004669519",
       desc: "7004669519"
+    },
+    {
+      id: 8,
+      icon: <Linkedin/>,
+      title: "linkdin",
+      link: "https://www.linkedin.com/in/gyandeep-aryan-6a7509176/",
+      desc: "gyandeep-aryan-6a7509176"
     },
     {
       id: 3,

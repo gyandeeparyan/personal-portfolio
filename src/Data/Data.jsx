@@ -1,7 +1,8 @@
 export const projectData = [
   {
     id: 66,
-    title: "SAMVAD-SETU 🎙️",
+    title: "SAMVAD-SETU",
+    emoji:" 🎙️",
     image: "https://i.ibb.co/QJrqWJD/netflix-gpt4.png",
     git: "https://github.com/gyandeeparyan/samvad-setu",
     live: "https://samvad-setu-gyandeeparyan.vercel.app/",
@@ -10,7 +11,8 @@ export const projectData = [
   },
   {
     id: 7,
-    title: "🎨 AAKRITI ✏️",
+    title: "🎨 AAKRITI",
+    emoji:" ✏️",
     image: "https://i.ibb.co/QJrqWJD/netflix-gpt4.png",
     git: "https://github.com/gyandeeparyan/nextjs-sketch-book",
     live: "https://nextjs-sketch-book.vercel.app/",
@@ -18,7 +20,8 @@ export const projectData = [
   },
   {
     id: 7,
-    title: "🎬 Movies-GPT",
+    title: "Movies-GPT",
+    emoji:"🎬",
     image: "https://i.ibb.co/QJrqWJD/netflix-gpt4.png",
     git: "https://github.com/gyandeeparyan/netflix-gpt",
     live: "https://movies-gpt.netlify.app/",
@@ -26,7 +29,8 @@ export const projectData = [
   },
   {
     id: 21,
-    title: "🌈 Calm",
+    title: "Calm",
+    emoji:"🌈",
     image: "https://i.ibb.co/x6G9LNR/eatsy.png",
     git: "https://github.com/gyandeeparyan/youtube-academic-clone",
     live: "https://youtube-academic.netlify.app/",
@@ -34,7 +38,8 @@ export const projectData = [
   },
   {
     id: 6,
-    title: "🍕 Eatsy",
+    title: "Eatsy",
+    emoji:"🍕",
     image: "https://i.ibb.co/x6G9LNR/eatsy.png",
     git: "https://github.com/gyandeeparyan/eatsy-food",
     live: "https://eatsy-food.netlify.app/",

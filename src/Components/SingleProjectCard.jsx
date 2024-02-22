@@ -1,13 +1,14 @@
 /* eslint-disable react/prop-types */
 
 
-const SingleProjectCard = ({ title, git, live, desc }) => {
+const SingleProjectCard = ({ title, git, live, desc,emoji }) => {
   return (
     <>
       <div className='w-[300px] rounded-xl border border-zinc-500'>
         <div className='p-4'>
-          <h1 className='text-4xl font-semibold text-zinc-300'>
+          <h1 className='text-4xl font-semibold  text-zinc-300'>
             {title.toLowerCase()}
+            <span className="animate-pulse">{emoji}</span>
           </h1>
           <p className='mt-3 text-sm text-gray-500'>{desc}</p>
           <div className='flex -ml-[10px]'>
