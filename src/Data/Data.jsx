@@ -1,5 +1,15 @@
 export const projectData = [
   {
+    id: Date.now(),
+    title: "sameeksha",
+    emoji:"📟",
+    image: "https://i.ibb.co/QJrqWJD/netflix-gpt4.png",
+    git: "https://github.com/gyandeeparyan/sameeksha",
+    live: "https://sameeksha.vercel.app/",
+    desc: "Anonymous messaging and feedback app designed to foster open communication and constructive dialogue"
+,
+  },
+  {
     id: 66,
     title: "SAMVAD-SETU",
     emoji:" 🎙️",
