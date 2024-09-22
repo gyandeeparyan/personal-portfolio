@@ -2,8 +2,8 @@ import { v4 as uuidv4 } from 'uuid';
 export const projectData = [
   {
     id: uuidv4(),
-    title: "sameeksha",
-    emoji:"📟 ✨",
+    title: "✨ sameeksha",
+    emoji:"📟",
     image: "https://i.ibb.co/QJrqWJD/netflix-gpt4.png",
     git: "https://github.com/gyandeeparyan/sameeksha",
     live: "https://sameeksha.vercel.app/",
@@ -12,7 +12,7 @@ export const projectData = [
   },
   {
     id: uuidv4(),
-    title: "profile.fyi | dining",
+    title: "profile.fyi",
     emoji:"🥣",
     image:"https://i.ibb.co/QJrqWJD/netflix-gpt4.png",
     git:"https://github.com/gyandeeparyan/profile_dining",
