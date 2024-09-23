@@ -10,7 +10,7 @@ const Projects = () => {
         <div className='mx-[70px] mt-20'>
           <h1 className='text-4xl text-white font-bold'>Projects</h1>
           <div className=' mt-24  border-b border-zinc-800'></div>
-          <div className='grid grid-cols-1 mt-16 gap-5 md:grid-cols-4'>
+          <div className='grid grid-cols-1 py-10 mt-6 gap-5 md:grid-cols-4'>
             {projectData.map((item) => {
               return <SingleProjectCard key={item.id} {...item} />;
             })}

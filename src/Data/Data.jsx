@@ -2,8 +2,8 @@ import { v4 as uuidv4 } from 'uuid';
 export const projectData = [
   {
     id: uuidv4(),
-    title: "✨ sameeksha",
-    emoji:"📟",
+    title: "sameeksha",
+    emoji:"✨",
     image: "https://i.ibb.co/QJrqWJD/netflix-gpt4.png",
     git: "https://github.com/gyandeeparyan/sameeksha",
     live: "https://sameeksha.vercel.app/",
@@ -22,12 +22,12 @@ export const projectData = [
   },
   {
     id: uuidv4(),
-    title: "admin-dashboard-crud",
+    title: "dashboard",
     emoji:"💻",
     image: "https://i.ibb.co/QJrqWJD/netflix-gpt4.png",
-    git: "https://github.com/gyandeeparyan/sameeksha",
-    live: "https://sameeksha.vercel.app/",
-    desc: "This is a solution to coding challenges curated by Geektrust . Made using Next.js , Tailwind CSS and Redux-Toolkit"
+    git: "https://github.com/gyandeeparyan/admin-dashboard",
+    live: "https://admin-dashboard-vz1n.vercel.app/",
+    desc: "This is a solution to coding challenges curated by Geektrust for admin dashboard having CRUD functionalities. Made using Next.js , Tailwind CSS and Redux-Toolkit"
 ,
   },
 
@@ -53,7 +53,7 @@ export const projectData = [
   {
     id: uuidv4(),
     title: "Movies-GPT",
-    emoji:"🎬 ✨",
+    emoji:"✨",
     image: "https://i.ibb.co/QJrqWJD/netflix-gpt4.png",
     git: "https://github.com/gyandeeparyan/netflix-gpt",
     live: "https://movies-gpt.netlify.app/",
@@ -77,20 +77,5 @@ export const projectData = [
     live: "https://eatsy-food.netlify.app/",
     desc: "Eatsy, your foodie's paradise. Order, explore, and relish delicious cuisines from your favorite restaurants right at your fingertips.",
   },
-  {
-    id:uuidv4(),
-    title: "Fortisi",
-    image: "https://i.ibb.co/TkmqKPG/fortisi.png",
-    git: "https://github.com/gyandeeparyan/Furniture-Store",
-    live: "https://fortisi.netlify.app/",
-    desc: "Fortisi, where furniture dreams come true. Shop for exquisite home furnishings and elevate your living space with ease.",
-  },
-  {
-    id: uuidv4(),
-    title: "JobInfinity",
-    image: "https://i.ibb.co/Cb4yWdc/Screenshot-2023-07-10-212058.png",
-    git: "https://github.com/gyandeeparyan/job-infinity",
-    live: "https://jobsinfinity.netlify.app/",
-    desc: "JobInfinity, your gateway to limitless career opportunities. Connect with dream jobs and employers through our job portal.",
-  },
+  
 ];
