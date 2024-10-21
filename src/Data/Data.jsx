@@ -26,8 +26,8 @@ export const projectData = [
     emoji: "",
     type: "Hiring assessment",
     image: "https://i.ibb.co/QJrqWJD/netflix-gpt4.png",
-    git: "https://github.com/gyandeeparyan/profile_dining",
-    live: "https://profile-dining.vercel.app/",
+    git: "https://github.com/gyandeeparyan/email-client",
+    live: "https://email-client-mu.vercel.app/",
     desc: "Modern email interface with streamlined communication features and intuitive user experience."
   },
   {
