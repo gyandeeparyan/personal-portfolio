@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 
 
-const SingleProjectCard = ({ title, git, live, desc,emoji }) => {
+const SingleProjectCard = ({ title, git,type, live, desc,emoji }) => {
   return (
     <>
       <div className='w-[300px] rounded-xl border border-zinc-500'>
@@ -11,7 +11,7 @@ const SingleProjectCard = ({ title, git, live, desc,emoji }) => {
             <span className="animate-pulse">{emoji}</span>
           </h1>
           <p className='mt-3 text-sm text-gray-500'>{desc}</p>
-          <div className='flex -ml-[10px]'>
+          <div className='flex mb-2 -ml-[10px]'>
             <a href={live} rel="noreferrer" target='_blank'>
               <button
                 type='button'
@@ -27,7 +27,11 @@ const SingleProjectCard = ({ title, git, live, desc,emoji }) => {
               </button>
             </a>
           </div>
+          <span className={`px-4 py-1 ${type === "Hiring assessment" ? "bg-green-300" : "bg-purple-300"} text-gray-950 rounded-full`}>
+  {type}
+</span>
         </div>
+        
       </div>
     </>
   );

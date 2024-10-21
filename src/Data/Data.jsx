@@ -3,79 +3,101 @@ export const projectData = [
   {
     id: uuidv4(),
     title: "sameeksha",
-    emoji:"✨",
+    type: "Learning odyssey",
+    emoji: "✨",
     image: "https://i.ibb.co/QJrqWJD/netflix-gpt4.png",
     git: "https://github.com/gyandeeparyan/sameeksha",
     live: "https://sameeksha.vercel.app/",
-    desc: "Anonymous messaging and feedback app designed to foster open communication and constructive dialogue"
-,
+    desc: "Anonymous feedback platform enabling open communication through private messaging and structured responses."
+  },
+  {
+    id: uuidv4(),
+    title: "🚀 Dashboard",
+    type: "Hiring assessment",
+    emoji: "",
+    image: "https://i.ibb.co/QJrqWJD/netflix-gpt4.png",
+    git: "https://github.com/gyandeeparyan/data-rendering",
+    live: "https://data-rendering.vercel.app/",
+    desc: "Interactive front-end application featuring dynamic data visualization and comprehensive analytical charts."
+  },
+  {
+    id: uuidv4(),
+    title: "🚀 Mail",
+    emoji: "",
+    type: "Hiring assessment",
+    image: "https://i.ibb.co/QJrqWJD/netflix-gpt4.png",
+    git: "https://github.com/gyandeeparyan/profile_dining",
+    live: "https://profile-dining.vercel.app/",
+    desc: "Modern email interface with streamlined communication features and intuitive user experience."
   },
   {
     id: uuidv4(),
     title: "profile.fyi",
-    emoji:"🥣",
-    image:"https://i.ibb.co/QJrqWJD/netflix-gpt4.png",
-    git:"https://github.com/gyandeeparyan/profile_dining",
-    live:"https://profile-dining.vercel.app/",
-    desc:"Profile.fyi | Dining is a unique offering by Profile.fyi , which encourages everyone to eat mindfully , order less , eat home cooked food."
-,
+    emoji: "🥣",
+    type: "Hiring assessment",
+    image: "https://i.ibb.co/QJrqWJD/netflix-gpt4.png",
+    git: "https://github.com/gyandeeparyan/profile_dining",
+    live: "https://profile-dining.vercel.app/",
+    desc: "Mindful eating platform promoting healthy home-cooked meals and balanced dietary choices."
   },
   {
     id: uuidv4(),
     title: "dashboard",
-    emoji:"💻",
+    emoji: "💻",
+    type: "Hiring assessment",
     image: "https://i.ibb.co/QJrqWJD/netflix-gpt4.png",
     git: "https://github.com/gyandeeparyan/admin-dashboard",
     live: "https://admin-dashboard-vz1n.vercel.app/",
-    desc: "This is a solution to coding challenges curated by Geektrust for admin dashboard having CRUD functionalities. Made using Next.js , Tailwind CSS and Redux-Toolkit"
-,
+    desc: "Next.js admin dashboard with CRUD operations, built for Geektrust coding challenge."
   },
-
   {
     id: uuidv4(),
     title: "SAMVAD-SETU",
-    emoji:" 🎙️",
+    emoji: " 🎙️",
+    type: "Learning odyssey",
     image: "https://i.ibb.co/QJrqWJD/netflix-gpt4.png",
     git: "https://github.com/gyandeeparyan/samvad-setu",
     live: "https://samvad-setu-gyandeeparyan.vercel.app/",
-    desc: "Samvada Setu is a revolutionary video meeting application that leverages the power of the next generation web technology, NextJS, and the efficiency of a mesh network topology. "
-,
+    desc: "Next.js video conferencing platform utilizing mesh network for efficient communication."
   },
   {
     id: uuidv4(),
     title: "🎨 AAKRITI",
-    emoji:" ✏️",
+    emoji: " ✏️",
+    type: "Learning odyssey",
     image: "https://i.ibb.co/QJrqWJD/netflix-gpt4.png",
     git: "https://github.com/gyandeeparyan/nextjs-sketch-book",
     live: "https://nextjs-sketch-book.vercel.app/",
-    desc: "With Akriti, you have the power to draw, erase, undo, redo, and download your creations with ease. It's like having a digital canvas at your fingertips!",
+    desc: "Digital drawing canvas with essential tools for creating and saving artwork."
   },
   {
     id: uuidv4(),
     title: "Movies-GPT",
-    emoji:"✨",
+    emoji: "✨",
+    type: "Learning odyssey",
     image: "https://i.ibb.co/QJrqWJD/netflix-gpt4.png",
     git: "https://github.com/gyandeeparyan/netflix-gpt",
     live: "https://movies-gpt.netlify.app/",
-    desc: "Movies-GPT is your movie recommendation companion. Discover the perfect film for your mood and taste with AI-powered suggestions.",
+    desc: "AI-powered movie recommendation engine providing personalized film suggestions based on preferences."
   },
   {
-    id:uuidv4(),
+    id: uuidv4(),
     title: "Calm",
-    emoji:"🌈",
+    emoji: "🌈",
+    type: "Learning odyssey",
     image: "https://i.ibb.co/x6G9LNR/eatsy.png",
     git: "https://github.com/gyandeeparyan/youtube-academic-clone",
     live: "https://youtube-academic.netlify.app/",
-    desc: "Calm, your serene sanctuary. This YouTube-like app offers powerful search to help you find soothing content and inner peace.",
+    desc: "YouTube-inspired platform focused on delivering peaceful and educational content."
   },
   {
-    id:uuidv4(),
+    id: uuidv4(),
     title: "Eatsy",
-    emoji:"🍕",
+    emoji: "🍕",
+    type: "Learning odyssey",
     image: "https://i.ibb.co/x6G9LNR/eatsy.png",
     git: "https://github.com/gyandeeparyan/eatsy-food",
     live: "https://eatsy-food.netlify.app/",
-    desc: "Eatsy, your foodie's paradise. Order, explore, and relish delicious cuisines from your favorite restaurants right at your fingertips.",
-  },
-  
+    desc: "Restaurant discovery and food ordering platform for seamless culinary experiences."
+  }
 ];
