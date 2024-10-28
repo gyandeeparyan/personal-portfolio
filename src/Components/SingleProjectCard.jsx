@@ -4,7 +4,7 @@
 const SingleProjectCard = ({ title, git,type, live, desc,emoji }) => {
   return (
     <>
-      <div className='w-[300px] rounded-xl border border-zinc-500'>
+      <div className='w-[300px] transform transition duration-300 hover:scale-105 rounded-xl border border-zinc-500'>
         <div className='p-4'>
           <h1 className='text-4xl font-semibold  text-zinc-300'>
             {title.toLowerCase()}
@@ -15,14 +15,14 @@ const SingleProjectCard = ({ title, git,type, live, desc,emoji }) => {
             <a href={live} rel="noreferrer" target='_blank'>
               <button
                 type='button'
-                className='mt-4  mr-[] rounded-full px-2.5 py-1 text-[15px] underline text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 '>
+                className='mt-4 transform transition duration-300 hover:scale-105 mr-[] rounded-full px-2.5 py-1 text-[15px] underline text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 '>
                 demo
               </button>
             </a>
             <a href={git} rel="noreferrer" target='_blank'>
               <button
                 type='button'
-                className='mt-4  mr-[] rounded-full px-2.5 py-1 text-[15px] underline text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 '>
+                className='mt-4 transform transition duration-300 hover:scale-105  mr-[] rounded-full px-2.5 py-1 text-[15px] underline text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 '>
                 github
               </button>
             </a>
