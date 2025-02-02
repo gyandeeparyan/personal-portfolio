@@ -2,6 +2,16 @@ import { v4 as uuidv4 } from 'uuid';
 export const projectData = [
   {
     id: uuidv4(),
+    title: "MLBB Store",
+    type: "Freelancing",
+    emoji: "🛒",
+    image: "https://i.ibb.co/QJrqWJD/netflix-gpt4.png",
+    git: "https://github.com/gyandeeparyan/zoya-store-v2",
+    live: "https://zoya-store.vercel.app/",
+    desc: "Online store with Razorpay Integration for seamless transactions and secure payments."
+  },
+  {
+    id: uuidv4(),
     title: "sameeksha",
     type: "Learning odyssey",
     emoji: "✨",
